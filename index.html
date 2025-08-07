@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(151, 151, 151);
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    section{
+        padding: 15px;
+        width: 200px;
+        height: auto;
+        box-shadow: 10px, 10px 10px;
+        background-color: rgb(53, 53, 53);
+        text-align: center;
+        margin: auto;
+    }
+    header{
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        
+    }
+</style>
+<header><h1> Seja bem vindo pequeno gafanhoto</h1></header>
+<body>
+    <section>
+        <div>
+            Olá pequeno gafanhoto!
+        </div>
+        <div>
+
+        </div>
+    </section>
+</body>
+<script>
+    var senha = (window.prompt("digite a senha: "))
+    var senhacerta = "corretasenha";
+
+    if (senha !== senhacerta){
+        
+        window.location.href = "https://www.google.com";
+    }
+    else {
+        window.alert("Sejá bem vindo!")
+        
+    }
+
+</script>
+</html>
